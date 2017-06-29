@@ -8,6 +8,8 @@ echo 'Unit Tests'
 echo '####################'
 echo ''
 
+echo "### Gemfile: $BUNDLE_GEMFILE ###"
+
 echo '##### rswag-api #####'
 cd $ROOT_PATH/rswag-api
 bundle exec rspec
